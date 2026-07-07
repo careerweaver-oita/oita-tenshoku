@@ -41,7 +41,7 @@ a { text-decoration: none; }
 .cta-note { font-size: 12px; color: #cfe3ff; margin-top: 12px; text-shadow: 0 1px 8px rgba(0,0,0,0.5); line-height: 1.6; }
 .cta-btn:hover { opacity: 0.85; }
 
-.section { padding: 2.5rem 1.5rem; border-bottom: 1px solid #f0f0f0; max-width: 640px; margin: 0 auto; }
+.section { padding: 3.5rem 1.5rem; border-bottom: 1px solid #f0f0f0; max-width: 640px; margin: 0 auto; }
 .section-label { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; color: #185FA5; margin-bottom: 0.5rem; }
 .section h2 { font-size: 20px; font-weight: 700; color: #0d4a8a; margin-bottom: 1.5rem; line-height: 1.5; }
 
@@ -90,12 +90,12 @@ a { text-decoration: none; }
 .pain-card { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); border-radius: 10px; padding: 14px 16px; display: flex; align-items: center; gap: 14px; }
 .pain-card .icon { flex-shrink: 0; width: 32px; height: 32px; border-radius: 50%; background: rgba(255,255,255,0.12); display: flex; align-items: center; justify-content: center; color: #ff8a8a; font-weight: 700; }
 .pain-card .txt { color: #e8f0fb; font-size: 14px; line-height: 1.6; }
-
-.credibility-badge { display: inline-block; background: #eef6ff; color: #0d4a8a; font-size: 11px; font-weight: 700; padding: 4px 12px; border-radius: 99px; margin-bottom: 12px; letter-spacing: 0.03em; }
+.strength-card-v2 .ghost-num { position: absolute; top: -4px; right: 10px; font-size: 42px; font-weight: 800; color: #f0f6ff; line-height: 1; z-index: 0; }
+.credibility-badge { display: inline-block; background: #eef6ff; color: #0d4a8a; font-size: 10px; font-weight: 700; padding: 4px 12px; border-radius: 99px; margin-bottom: 12px; letter-spacing: 0.02em; white-space: nowrap; }
 .strength-grid-v2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 1.5rem; }
 @media (max-width: 480px) { .strength-grid-v2 { grid-template-columns: 1fr; } }
 .strength-card-v2 { position: relative; background: #fff; border: 1px solid #e4edf7; border-top: 4px solid #0d4a8a; border-radius: 12px; padding: 1.5rem 1.25rem 1.25rem; box-shadow: 0 6px 20px rgba(13,74,138,0.06); overflow: hidden; }
-.strength-card-v2 .ghost-num { position: absolute; top: -6px; right: 10px; font-size: 52px; font-weight: 800; color: #f0f6ff; line-height: 1; z-index: 0; }
+
 .strength-card-v2 .title-v2 { position: relative; z-index: 1; font-size: 16px; font-weight: 700; color: #0d2b4e; margin-bottom: 8px; }
 .strength-card-v2 .desc-v2 { position: relative; z-index: 1; font-size: 13px; color: #5a6b7d; line-height: 1.75; }
 .strength-card-v2 .tag { position: relative; z-index: 1; display: inline-block; margin-top: 10px; font-size: 11px; font-weight: 700; color: #06914a; background: #e8fbf0; padding: 3px 10px; border-radius: 99px; }
@@ -142,7 +142,7 @@ a { text-decoration: none; }
 <div class="section">
   <div class="pain-panel">
     <div class="section-label">PAIN POINT</div>
-    <h2>こんな気持ち、ありませんか？</h2>
+    <h2>こんな気持ち、<br>ありませんか？</h2>
     <div class="pain-grid">
       <div class="pain-card"><span class="icon">✕</span><span class="txt">転職したいけど、どこに相談すればいいかわからない</span></div>
       <div class="pain-card"><span class="icon">✕</span><span class="txt">大手エージェントに登録したけど、大分の求人が少なすぎる</span></div>
@@ -155,7 +155,7 @@ a { text-decoration: none; }
 
 <div class="section section-alt">
   <div class="section-label">WHY US</div>
-  <div class="credibility-badge">大分県特化のキャリアアドバイザーが直接対応</div>
+  <div class="credibility-badge">大分特化の元人事アドバイザーが対応</div>
   <h2>キャリアウィーバーが<br>選ばれる4つの理由</h2>
   <div class="strength-grid-v2">
     <div class="strength-card-v2">
@@ -194,7 +194,7 @@ a { text-decoration: none; }
     <div class="flow-step">
       <div class="flow-circle">1</div>
       <div>
-        <div class="flow-title">LINEで無料登録（1分）</div>
+        <div class="flow-title">LINEで無料登録（30秒）</div>
         <div class="flow-desc">公式LINEを友だち追加するだけ。まず「無料相談」と送ってくれればOKです。</div>
       </div>
     </div>
