@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>LINE公式アカウントへ移動します｜キャリアウィーバー</title>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2075030290082542');
+fbq('track', 'PageView');
+fbq('track', 'Lead');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2075030290082542&ev=Lead&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+    background: #0B1F3A;
+    color: #FFFFFF;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 24px;
+  }
+  .card {
+    max-width: 420px;
+  }
+  .logo {
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    color: #9FB4D6;
+    margin-bottom: 24px;
+  }
+  h1 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+  p {
+    font-size: 14px;
+    color: #C4D2E8;
+    line-height: 1.8;
+    margin-bottom: 32px;
+  }
+  .spinner {
+    width: 32px;
+    height: 32px;
+    border: 3px solid rgba(255,255,255,0.2);
+    border-top-color: #FFFFFF;
+    border-radius: 50%;
+    margin: 0 auto 32px;
+    animation: spin 0.8s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  a.manual-link {
+    display: inline-block;
+    background: #FFFFFF;
+    color: #0B1F3A;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 14px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+  a.manual-link:hover { opacity: 0.9; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">キャリア・ウィーバー</div>
+    <div class="spinner"></div>
+    <h1>公式LINEへ移動しています</h1>
+    <p>自動で移動しない場合は、下のボタンを押してください。</p>
+    <a class="manual-link" id="manual-link" href="https://lin.ee/3mYh3NW">LINEを開く</a>
+  </div>
+
+<script>
+  document.getElementById('manual-link').addEventListener('click', function(e) {
+    if (typeof fbq === 'function') {
+      fbq('track', 'Lead', {}, {eventID: 'manual_click'});
+    }
+  });
+
+  setTimeout(function () {
+    window.location.href = "https://lin.ee/3mYh3NW";
+  }, 2500);
+</script>
+</body>
+</html>
